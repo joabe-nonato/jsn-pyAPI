@@ -1,7 +1,7 @@
 import pyodbc
 
-server = ""
-database = ""
+server = "NTB-479\SQLEXPRESS"
+database = "DevLocal"
 username = ""
 password = ""
 
