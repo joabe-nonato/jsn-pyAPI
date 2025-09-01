@@ -1,0 +1,22 @@
+
+nssm install FastAPIService "D:\API\src\venv\Scripts\python.exe" "-m uvicorn main:app --host 127.0.0.1 --port 8000" "D:\API\src"
+
+
+====================================================================================================================================
+
+Explicação dos parâmetros:
+
+FastAPIService → nome do serviço que você vai criar.
+
+"D:\API\src\venv\Scripts\python.exe" → caminho do Python da venv.
+
+"-m uvicorn main:app --host 127.0.0.1 --port 8000" → argumentos para rodar o Uvicorn.
+
+"D:\API\src" → diretório inicial do projeto (onde está o main.py).
+
+====================================================================================================================================
+
+Para iniciar o serviço
+nssm start FastAPIService
+
+
