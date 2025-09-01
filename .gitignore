@@ -44,4 +44,7 @@ ENV/
 # ============================
 # Arquivo específico do projeto
 # ============================
+
+# Ignorar mudanças futuras no datasource.py
 src/repository/datasource.py
+
