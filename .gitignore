@@ -1,0 +1,2 @@
+# Ignorar apenas o arquivo datasource.py
+src/repository/datasource.py
