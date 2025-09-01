@@ -1,0 +1,50 @@
+# ============================
+# Arquivos e diretórios Python
+# ============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================
+# Virtualenv / Ambientes
+# ============================
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# ============================
+# Configurações e Cache
+# ============================
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.db
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ============================
+# Arquivos de ambiente
+# ============================
+.env
+.env.*
+*.secret
+*.key
+
+# ============================
+# Arquivo específico do projeto
+# ============================
+
+# Ignorar mudanças futuras no datasource.py
+src/repository/datasource.py
+
