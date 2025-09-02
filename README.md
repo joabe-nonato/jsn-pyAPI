@@ -185,50 +185,10 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
     A API estará disponível em `http://127.0.0.1:8000`. A documentação interativa (Swagger UI) pode ser acessada em `http://127.0.0.1:8000/docs`.
 
 ## Requisitos
-- annotated-types==0.7.0
-- anyio==4.10.0
-- certifi==2025.1.31
-- charset-normalizer==3.4.1
-- click==8.2.1
-- colorama==0.4.6
-- et_xmlfile==2.0.0
 - fastapi==0.116.1
-- greenlet==3.2.2
-- h11==0.16.0
-- idna==3.10
-- iniconfig==2.1.0
-- joblib==1.4.2
-- numpy==2.2.2
-- openpyxl==3.1.5
-- packaging==25.0
-- pandas==2.2.3
-- playwright==1.52.0
-- pluggy==1.6.0
 - pydantic==2.11.7
 - pydantic_core==2.33.2
-- pyee==13.0.0
-- Pygments==2.19.1
 - pyodbc==5.2.0
-- pytest==8.4.0
-- pytest-base-url==2.1.0
-- pytest-playwright==0.7.0
-- python-dateutil==2.9.0.post0
-- python-slugify==8.0.4
-- pytz==2025.1
-- requests==2.32.3
-- scikit-learn==1.6.1
-- scipy==1.15.2
-- six==1.17.0
-- sniffio==1.3.1
-- starlette==0.47.3
-- text-unidecode==1.3
-- threadpoolctl==3.5.0
-- typing-inspection==0.4.1
-- typing_extensions==4.14.0
-- tzdata==2025.1
-- urllib3==2.3.0
-- uvicorn==0.35.0
-- xgboost==2.1.4
 
 
 ## Licença
