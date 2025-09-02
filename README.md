@@ -8,8 +8,8 @@ Esta é uma API para gerenciamento de tarefas, desenvolvida em Python utilizando
 
 
 ## Aplicação exemplo:
+![alt text](src/resource/video/jsn_APP.gif)
 
-<video src="src/resource/video/jsn_APP.mp4"  autoplay loop muted playsinline title="Title"></video>
 
 ### Ferramentas e Tecnologias:
 <div style="display: flex; gap: 20px; width: 100%; justify-content: space-between; " >
