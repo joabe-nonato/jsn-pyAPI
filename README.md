@@ -4,6 +4,36 @@ Esta é uma API para gerenciamento de tarefas, desenvolvida em Python utilizando
 
 **“Para uso comercial, entre em contato com o autor para obter uma licença comercial.”**
 
+![alt text](src/resource/image/jsn_API.png)
+
+
+## Aplicação exemplo:
+
+<video controls src="src/resource/video/jsn_APP.mp4"  autoplay loop muted playsinline title="Title"></video>
+
+### Ferramentas e Tecnologias:
+<div style="display: flex; gap: 20px;" >
+
+<img title="Visual Studio & Visual Code" alt="Visual Studio & Visual Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" />
+
+<img title="Javascript" alt="Javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" />
+
+<img title="Python" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" />             
+
+<img src="https://cdn.simpleicons.org/fastapi/00a39b" alt="FastAPI" width="40" height="40">
+
+<img title="MS Sql Server" alt="MS Sql Server" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="40" height="40" />
+
+<img title="Git & GitHub" alt="Git & GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"  width="40" height="40" />
+
+<img title="CSS" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />     
+
+<img title="HTML" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />          
+
+
+
+</div>   
+
 ## Arquitetura
 
 A aplicação segue uma arquitetura em 3 camadas (Layered Architecture) para garantir uma clara separação de responsabilidades:
@@ -158,6 +188,52 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
     uvicorn main:app --reload
     ```
     A API estará disponível em `http://127.0.0.1:8000`. A documentação interativa (Swagger UI) pode ser acessada em `http://127.0.0.1:8000/docs`.
+
+## Requisitos
+- annotated-types==0.7.0
+- anyio==4.10.0
+- certifi==2025.1.31
+- charset-normalizer==3.4.1
+- click==8.2.1
+- colorama==0.4.6
+- et_xmlfile==2.0.0
+- fastapi==0.116.1
+- greenlet==3.2.2
+- h11==0.16.0
+- idna==3.10
+- iniconfig==2.1.0
+- joblib==1.4.2
+- numpy==2.2.2
+- openpyxl==3.1.5
+- packaging==25.0
+- pandas==2.2.3
+- playwright==1.52.0
+- pluggy==1.6.0
+- pydantic==2.11.7
+- pydantic_core==2.33.2
+- pyee==13.0.0
+- Pygments==2.19.1
+- pyodbc==5.2.0
+- pytest==8.4.0
+- pytest-base-url==2.1.0
+- pytest-playwright==0.7.0
+- python-dateutil==2.9.0.post0
+- python-slugify==8.0.4
+- pytz==2025.1
+- requests==2.32.3
+- scikit-learn==1.6.1
+- scipy==1.15.2
+- six==1.17.0
+- sniffio==1.3.1
+- starlette==0.47.3
+- text-unidecode==1.3
+- threadpoolctl==3.5.0
+- typing-inspection==0.4.1
+- typing_extensions==4.14.0
+- tzdata==2025.1
+- urllib3==2.3.0
+- uvicorn==0.35.0
+- xgboost==2.1.4
 
 
 ## Licença

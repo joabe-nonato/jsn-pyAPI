@@ -25,12 +25,11 @@ def Adicionar(tarefa: Tarefa):
     try:
         cursor = conn.cursor()
         sql_query = """
-            INSERT INTO Tarefa (Id, Fase, Titulo, Descricao, tema, Criado)
+            INSERT INTO Tarefa (Fase, Titulo, Descricao, tema, Criado)
             OUTPUT INSERTED.TarefaID 
-            VALUES (?, ?, ?, ?, ?, GETDATE())
+            VALUES (?, ?, ?, ?, GETDATE())
         """
-        params = (
-            tarefa.Id,
+        params = (            
             tarefa.Fase,
             tarefa.Titulo,
             tarefa.Descricao,
@@ -58,14 +57,13 @@ def Alterar(tarefa: Tarefa):
         sql_query = """
             UPDATE Tarefa
             SET Alterado = GETDATE(),
-            Titulo = ?, Descricao = ?, Fase = ?, tema = ?, Id = ? WHERE TarefaID = ?
+            Titulo = ?, Descricao = ?, Fase = ?, tema = ? WHERE TarefaID = ?
         """
         params = (
             tarefa.Titulo,
             tarefa.Descricao,
             tarefa.Fase,
             tarefa.Tema,
-            tarefa.Id,
             tarefa.TarefaID
         )
         cursor.execute(sql_query, params)
