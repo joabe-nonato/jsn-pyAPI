@@ -9,10 +9,10 @@ Esta é uma API para gerenciamento de tarefas, desenvolvida em Python utilizando
 
 ## Aplicação exemplo:
 
-<video controls src="src/resource/video/jsn_APP.mp4"  autoplay loop muted playsinline title="Title"></video>
+<video src="src/resource/video/jsn_APP.mp4"  autoplay loop muted playsinline title="Title"></video>
 
 ### Ferramentas e Tecnologias:
-<div style="display: flex; gap: 20px;" >
+<div style="display: flex; gap: 20px; width: 100%; justify-content: space-between; " >
 
 <img title="Visual Studio & Visual Code" alt="Visual Studio & Visual Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" />
 
