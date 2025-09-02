@@ -189,7 +189,7 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
 - pydantic==2.11.7
 - pydantic_core==2.33.2
 - pyodbc==5.2.0
-
+- uvicorn==0.35.0
 
 ## Licença
 Este projeto adota um modelo de **Licenciamento Dual**:
