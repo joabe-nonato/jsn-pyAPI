@@ -4,13 +4,6 @@ Esta é uma API para gerenciamento de tarefas, desenvolvida em Python utilizando
 
 **“Para uso comercial, entre em contato com o autor para obter uma licença comercial.”**
 
-![alt text](src/resource/image/jsn_API.png)
-
-
-## Aplicação exemplo:
-![alt text](src/resource/video/jsn_APP.gif)
-
-
 ### Ferramentas e Tecnologias:
 <div style="display: flex; gap: 20px; width: 100%; justify-content: space-between; " >
 
@@ -30,8 +23,6 @@ Esta é uma API para gerenciamento de tarefas, desenvolvida em Python utilizando
 
 <img title="HTML" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />          
 
-
-
 </div>   
 
 ## Arquitetura
@@ -41,6 +32,11 @@ A aplicação segue uma arquitetura em 3 camadas (Layered Architecture) para gar
 -   **Camada de Rotas (`routers`)**: Responsável por definir os endpoints da API, receber as requisições HTTP e retornar as respostas. Ela lida com a validação dos dados de entrada/saída e o tratamento de erros HTTP, traduzindo os resultados da camada de serviço em respostas HTTP significativas (ex: 200, 201, 404, etc.).
 -   **Camada de Serviço (`service`)**: Contém a lógica de negócio da aplicação. Ela orquestra as operações, chamando a camada de repositório para acessar os dados. Esta camada é "pura", ou seja, não tem conhecimento sobre o protocolo HTTP, o que a torna reutilizável em diferentes contextos (ex: scripts, outros frameworks).
 -   **Camada de Repositório (`repository`)**: É a única camada que interage diretamente com o banco de dados. Ela é responsável por executar as queries (consultas) para criar, ler, atualizar e deletar registros, abstraindo a lógica de persistência de dados.
+
+
+## Aplicabilidade
+![alt text](src/resource/video/jsn_APP.gif)
+
 
 ## Estrutura do Projeto
 
@@ -62,6 +58,9 @@ src/
 ## Endpoints da API
 
 A seguir estão detalhados todos os endpoints disponíveis na API.
+
+![alt text](src/resource/image/jsn_API.png)
+
 
 ---
 
