@@ -8,8 +8,8 @@ Esta é uma API para gerenciamento de tarefas, desenvolvida em Python utilizando
 
 
 ## Aplicação exemplo:
+![alt text](src/resource/video/jsn_APP.gif)
 
-<video src="src/resource/video/jsn_APP.mp4"  autoplay loop muted playsinline title="Title"></video>
 
 ### Ferramentas e Tecnologias:
 <div style="display: flex; gap: 20px; width: 100%; justify-content: space-between; " >
@@ -76,7 +76,6 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
         [
             {
                 "TarefaID": 1,
-                "Id": "T-01",
                 "Fase": "Backlog",
                 "Titulo": "Implementar autenticação",
                 "Descricao": "...",
@@ -99,7 +98,6 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
         ```json
         {
             "TarefaID": 1,
-            "Id": "T-01",
             "Fase": "Backlog",
             "Titulo": "Implementar autenticação",
             "Descricao": "...",
@@ -122,7 +120,6 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
     ```json
     {
         "TarefaID": 0,
-        "Id": "T-02",
         "Fase": "TODO",
         "Titulo": "Criar tela de login",
         "Descricao": "Desenvolver o front-end da tela de login.",
@@ -149,7 +146,6 @@ A seguir estão detalhados todos os endpoints disponíveis na API.
     ```json
     {
         "TarefaID": 2,
-        "Id": "T-02",
         "Fase": "In Progress",
         "Titulo": "Criar tela de login (Atualizado)",
         "Descricao": "Desenvolver o front-end da tela de login com validação.",
